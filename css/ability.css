@@ -1,0 +1,322 @@
+.container{
+    max-width: 1920px;
+    padding:0;
+}
+
+.section_Tag{
+    background: #272929;
+}
+
+.TagIconArea{
+    max-width:1500px;
+    margin:auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Ability_Tag_Icon{
+    width:100px;
+    height:100px;
+    display:block;
+    margin:auto;
+}
+
+.Ability_Tag_Title{
+    font-size: 26px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: ivory;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section_Coding{
+    background: #56969c;
+}
+
+.AbilityArea{
+    max-width:1500px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Ability_white_Title{
+    font-size: 26px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: ivory;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.Ability_white_Info{
+    font-size: 22px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: ivory;
+    padding-top: 50px;
+    white-space:pre-wrap;
+    text-align: left;
+}
+
+.Ability_section_Bar{
+    width: 30%;
+    height: 3px;
+    margin-top: 25px;
+    background-color: ivory;
+}
+
+.Ability_Icon{
+    width:200px;
+    height:225px;
+    padding-top: 25px;
+    display:block;
+    margin:auto;
+}
+
+.section_Writing{
+    background: #050f2f;
+}
+
+.section_3Dmodel{
+    background: #272929;
+}
+
+.section_Compaign{
+    background: #56969c;
+}
+
+.section_Video{
+    background: #050f2f;
+}
+
+
+.FlipCard_Title{
+    font-size: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #050f2f;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.FlipCard_Bar{
+    width: 80%;
+    height: 1px;
+    margin-top: 15px;
+    background-color: #050f2f;
+}
+
+.FlipCard_Content{
+    font-size: 16px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #050f2f;
+    max-width: 300px;
+    margin: auto;
+}
+
+.Index_Ability_Flip_Card{
+    position: relative;
+    max-width:400px;
+    height:250px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.thecard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.75s ease;
+    border-radius: 20px;
+}
+
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+
+.thefront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #ffcd59;
+    border-radius: 20px;
+}
+
+.theback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #fafafa;
+    transform: rotateY(180deg);
+    border-radius: 20px;
+}
+
+
+.Ability_white_Button_Border{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+    width: 160px;
+    height: 80px;
+    border: solid 2px ivory;
+    border-radius: 40px;
+    background: 0 0;
+    text-align: center;
+    line-height: 80px;
+    display: block;
+    margin: auto;
+}
+
+.Ability_white_Coding_Button_Title{
+    color: ivory;
+    text-decoration: none;
+}
+
+.Ability_white_Button_Border:hover{
+    background: ivory;
+}
+
+.Ability_white_Button_Border:hover .Ability_white_Coding_Button_Title{
+    color: #56969c;
+    text-decoration: none;
+}
+
+.Ability_white_Writing_Button_Title{
+    color: ivory;
+    text-decoration: none;
+}
+
+.Ability_white_Button_Border:hover .Ability_white_Writing_Button_Title{
+    color: #050f2f;
+    text-decoration: none;
+}
+
+.Ability_white_3Dmodel_Button_Title{
+    color: ivory;
+    text-decoration: none;
+}
+
+.Ability_white_Button_Border:hover .Ability_white_3Dmodel_Button_Title{
+    color: #272929;
+    text-decoration: none;
+}
+
+.Ability_white_Compaign_Button_Title{
+    color: ivory;
+    text-decoration: none;
+}
+
+.Ability_white_Button_Border:hover .Ability_white_Compaign_Button_Title{
+    color: #56969c;
+    text-decoration: none;
+}
+
+.Ability_white_Video_Button_Title{
+    color: ivory;
+    text-decoration: none;
+}
+
+.Ability_white_Button_Border:hover .Ability_white_Video_Button_Title{
+    color: #050f2f;
+    text-decoration: none;
+}
+
+.Ability_Button_Line{
+    margin-bottom: 50px;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .Ability_white_Info{
+        padding-top: 25px;
+    }
+
+    .Ability_Icon{
+        width:175px;
+        height:200px;
+        padding-top: 25px;
+        display:block;
+        margin:auto;
+    }
+
+    .Index_Ability_Flip_Card{
+        position: relative;
+        max-width:375px;
+        height:225px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .AbilityArea{
+        padding-top:0;
+    }
+
+    .Ability_Icon{
+        width:150px;
+        height:175px;
+        padding-top: 25px;
+        display:block;
+        margin:auto;
+    }
+
+    .Index_Ability_Flip_Card{
+        position: relative;
+        max-width:350px;
+        height:200px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .AbilityArea{
+        padding-top:0;
+    }
+
+    .Ability_Icon{
+        width:125px;
+        height:150px;
+        padding-top: 25px;
+        display:block;
+        margin:auto;
+    }
+
+    .Index_Ability_Flip_Card{
+        position: relative;
+        max-width:325px;
+        height:175px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+    .AbilityArea{
+        padding-top:0;
+    }
+
+    .Ability_Icon{
+        width:125px;
+        height:150px;
+        padding-top: 25px;
+        display:block;
+        margin:auto;
+    }
+    
+    .Index_Ability_Flip_Card{
+        position: relative;
+        max-width:325px;
+        height:175px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .Tag_xs_Setting{
+        width:50%;
+    }
+}

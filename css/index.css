@@ -1,0 +1,237 @@
+.container{
+    max-width: 1920px;
+    padding:0;
+}
+
+.Index_MainLogo{
+    width:100%;
+}
+
+.Index_AboutMe{
+    background: #272929;
+}
+
+    .Index_AboutMe_Info{
+        max-width:1500px;
+        margin: 0 auto;
+    }
+    
+    .Index_AboutMe_Selfie_Box{
+        width:100%;
+        margin:auto;
+    }
+
+    .Index_AboutMe_Selfie{
+        width:400px;
+        border-radius: 5px;
+        display: block;
+        margin:auto;
+    }
+    
+    .Index_AboutMe_Text{
+        margin:auto;
+    }
+    
+    .Index_AboutMe_Text_Title{
+        font-size: 26px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .Index_AboutMe_Text_Content{
+        font-size: 20px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        text-align: left;
+        margin-top: 20px;
+        line-height: 27px;
+        white-space:pre-wrap;
+    }
+    
+    .Index_AboutMe_Text_Button{
+        margin-bottom: 30px;
+        height: 100%;
+    }
+    
+    
+    .Index_AboutMe_Text_Button_Border{
+        width:80%;
+        margin:0 auto;
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 20px;
+        height: 80px;
+        border: solid 2px ivory;
+        border-radius: 40px;
+        background: 0 0;
+        text-align: center;
+        line-height: 80px;
+    }
+    
+    .Index_AboutMe_Text_Button_Title{
+        color: ivory;
+        text-decoration: none;
+    }
+    
+    .Index_AboutMe_Text_Button_Border:hover{
+        background: ivory;
+    }
+    
+    .Index_AboutMe_Text_Button_Border:hover .Index_AboutMe_Text_Button_Title{
+        color: #272929;
+        text-decoration: none;
+    }
+    
+    .Index_AboutMe_Bar{
+        height: 3px;
+        margin-top: 25px;
+        background-color: ivory;
+    }
+    
+    .Index_Ability{
+        background: #56969c;
+    }
+    
+    .Index_Ability_Title{
+        font-size: 26px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        text-align: center;
+        padding-top: 50px;
+    }
+    
+    .Index_Ability_Bar{
+        width: 30%;
+        height: 3px;
+        margin-top: 25px;
+        background-color: ivory;
+    }
+    
+    .Index_Ability_Info{
+        max-width: 1500px;
+        padding-top: 50px;
+        margin:0 auto;
+    }
+    
+    .Index_Ability_Info_Row{
+        margin:0;
+    }
+
+    .Index_Ability_Section{
+        margin:0;
+        height:250px;
+    }
+    
+    .Index_Ability_Icon{
+        float: left;
+        width:100px;
+        height: 100px;;
+    }
+    
+    .Index_Ability_Section_Text{
+        float:left;
+        width:400px;
+        height: 100%;
+    }
+    
+    .Index_Ability_Section_Title{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 24px;
+        text-align: left;
+        color:#050F2F;
+        padding-left: 50px;
+    }
+    
+    .Index_Ability_Section_Content{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 18px;
+        text-align: left;
+        color:ivory;
+        padding-top: 12px;
+        padding-left: 50px;
+    }
+    
+    .Index_Ability_Text_Button_Border{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 20px;
+        width: 300px;
+        height: 100px;
+        border: solid 2px ivory;
+        border-radius: 50px;
+        background: 0 0;
+        text-align: center;
+        line-height: 100px;
+        margin:0 auto;
+    }
+    
+    .Index_Ability_Text_Button_Title{
+        color: ivory;
+        text-decoration: none;
+    }
+    
+    .Index_Ability_Text_Button_Border:hover{
+        background: ivory;
+    }
+    
+    .Index_Ability_Text_Button_Border:hover a{
+        color: #56969c;
+        text-decoration: none;
+    }
+
+    .Fake_Space{
+        height: 30px;
+    }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .Index_AboutMe_Selfie{
+        width:350px;
+        border-radius: 5px;
+        display: block;
+    }
+
+    .Index_AboutMe_Text_Title{
+        font-size: 24px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .Index_AboutMe_Text_Content{
+        font-size: 18px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        text-align: left;
+        margin-top: 20px;
+        line-height: 27px;
+        white-space:pre-wrap;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .Index_AboutMe_Selfie{
+        width:300px;
+        border-radius: 5px;
+        display: block;        
+        margin: auto;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .Index_AboutMe_Selfie{
+        width:250px;
+        border-radius: 5px;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media (max-width: 575.98px){
+    .Index_AboutMe_Selfie{
+        width:200px;
+        border-radius: 5px;
+        display: block;
+        margin: auto;
+    }
+}

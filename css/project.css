@@ -1,0 +1,142 @@
+.container{
+    max-width: 1920px;
+    padding:0;
+}
+
+.section_Project{
+    background: #B0C4DE;
+}
+
+.ProjectArea{
+    max-width:1500px;
+    margin:auto;
+    padding-top: 50px;
+}
+
+.Project_white_Title{
+    font-size: 26px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #272929;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.Project_section_Bar{
+    width: 30%;
+    height: 3px;
+    margin-top: 25px;
+    background-color: #272929;
+}
+
+.Project_Box {
+    padding-bottom: 30px;
+}
+
+.Project_Icon{
+    width:100%;
+    height:100%;
+    /*padding-top: 25px;*/
+    display:block;
+    margin:auto;
+    border-radius: 20px;
+}
+
+.FlipCard_Title{
+    font-size: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: ivory;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.FlipCard_Bar{
+    width: 80%;
+    height: 1px;
+    margin-top: 15px;
+    background-color: ivory;
+}
+
+.FlipCard_Content{
+    font-size: 16px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: ivory;
+    max-width: 300px;
+    margin: auto;
+}
+
+.Index_Project_Flip_Card{
+    position: relative;
+    max-width:400px;
+    height:250px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.thecard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.75s ease;
+    border-radius: 20px;
+}
+
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+
+.thefront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #ffcd59;
+    border-radius: 20px;
+}
+
+.theback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #272929;
+    transform: rotateY(180deg);
+    border-radius: 20px;
+}
+
+.Project_Text_Button{
+    height: 100%;
+}
+
+
+.Project_Text_Button_Border{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+    width: 120px;
+    height: 60px;
+    border: solid 2px ivory;
+    border-radius: 40px;
+    background: 0 0;
+    text-align: center;
+    line-height: 60px;
+    margin: 0 auto;
+    margin-top:20px;
+}
+
+.Project_Text_Button_Title{
+    color: ivory;
+    text-decoration: none;
+}
+
+.Project_Text_Button_Border:hover{
+    background: ivory;
+}
+
+.Project_Text_Button_Border:hover .Project_Text_Button_Title{
+    color: #272929;
+    text-decoration: none;
+}
+
+@media(min-width: 1200px){
+
+}

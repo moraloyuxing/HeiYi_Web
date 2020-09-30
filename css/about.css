@@ -1,0 +1,322 @@
+.container{
+    max-width: 1920px;
+    padding:0;
+}
+
+.Section_Hobby{
+    background: #272929;
+}
+
+.Section_Experience{
+    background: #56969c;
+}
+
+.Section_Award{
+    background: #050f2f;
+}
+
+.About_Icon{
+    width:150px;
+    height:175px;
+    padding-top: 25px;
+    display:block;
+    margin:auto;
+}
+
+.HobbyArea{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.ExperienceArea{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.AwardArea{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.About_Selfie{
+    width:350px;
+    border-radius: 5px;
+    display: block;
+    margin:auto;
+}
+
+.About_Selfie_Area{
+    padding-top:50px;
+    margin: auto;
+}
+
+.About_Hobby_Title{
+    font-size: 26px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: ivory;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.About_Bar{
+    width: 100%;
+    height: 3px;
+    margin-top: 25px;
+    background-color: ivory;
+}
+
+.FlipCard_Title{
+    font-size: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #050f2f;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.FlipCard_Bar{
+    width: 80%;
+    height: 1px;
+    margin-top: 15px;
+    background-color: #050f2f;
+}
+
+.FlipCard_Content{
+    font-size: 16px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #050f2f;
+    max-width: 250px;
+    margin: auto;
+}
+
+.Index_About_Flip_Card{
+    position: relative;
+    max-width:300px;
+    height:200px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.thecard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.75s ease;
+    border-radius: 20px;
+}
+
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+
+.thefront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #ffcd59;
+    border-radius: 20px;
+}
+
+.theback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #fafafa;
+    transform: rotateY(180deg);
+    border-radius: 20px;
+}
+
+.About_white_Info{
+    font-size: 22px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: ivory;
+    white-space:pre-wrap;
+    text-align: left;
+}
+
+.Experience_Fill{
+    width:100%;
+    padding-top:10%;
+    padding-bottom:10%;
+    margin:0 auto;
+
+}
+
+.Experience_Fill_Image{
+    width:80%;
+    height:80%;
+    border-radius: 100px;
+    display:block;
+    margin:auto;
+}
+
+
+
+@media(min-width: 992px)and (max-width: 1199.98px){
+    .About_Selfie{
+        width:250px;
+        border-radius: 5px;
+        display: block;
+        margin:auto;
+    }
+
+    .About_Hobby_Title{
+        font-size: 24px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .About_white_Info{
+        font-size: 20px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        white-space:pre-wrap;
+        text-align: left;
+    }
+
+    .About_Bar{
+        width: 100%;
+        height: 2px;
+        margin-top: 15px;
+        background-color: ivory;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .About_Selfie{
+        width:300px;
+        border-radius: 5px;
+        display: block;
+        margin:auto;
+    }
+
+    .About_Hobby_Title{
+        font-size: 22px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .About_white_Info{
+        font-size: 18px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        white-space:pre-wrap;
+        text-align: left;
+    }
+
+    .About_Bar{
+        width: 100%;
+        height: 2px;
+        margin-top: 15px;
+        background-color: ivory;
+    }
+
+    .About_Icon{
+        width:125px;
+        height:150px;
+        padding-top: 25px;
+        display:block;
+        margin:auto;
+    }
+
+    .Experience_Fill{
+        display: none;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+    .About_Selfie{
+        width:200px;
+        border-radius: 5px;
+        display: block;
+        margin:auto;
+    }
+
+    .About_Hobby_Title{
+        font-size: 20px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .About_white_Info{
+        font-size: 16px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        white-space:pre-wrap;
+        text-align: left;
+    }
+
+    .About_Bar{
+        width: 100%;
+        height: 1px;
+        margin-top: 15px;
+        background-color: ivory;
+    }
+
+    .About_Icon{
+        width:100px;
+        height:125px;
+        padding-top: 25px;
+        display:block;
+        margin:auto;
+    }
+
+    .Experience_Fill{
+        display: none;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .About_Selfie{
+        width:250px;
+        border-radius: 5px;
+        display: block;
+        margin:auto;
+    }
+
+    .About_Hobby_Title{
+        font-size: 20px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .About_white_Info{
+        font-size: 16px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        white-space:pre-wrap;
+        text-align: left;
+    }
+
+    .About_Bar{
+        width: 100%;
+        height: 1px;
+        margin-top: 15px;
+        background-color: ivory;
+    }
+
+    .About_Icon{
+        width:125px;
+        height:150px;
+        padding-top: 25px;
+        display:block;
+        margin:auto;
+    }
+
+    .Experience_Fill{
+        display: none;
+    }
+}
