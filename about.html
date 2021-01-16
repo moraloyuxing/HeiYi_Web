@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/about.css">
+    <script defer src="FadeOnScroll.js"></script>
     <title>HeiYi_About</title>
 </head>
 
@@ -19,8 +20,7 @@
                     <ul>
                         <li><a href="index.html">首頁</a></li>
                         <li><a href="" class="active">關於我</a></li>
-                        <li><a href="ability.html">專業能力</a></li>
-                        <li><a href="project.html">作品集</a></li>
+                        <li><a href="portfolio.html">作品集</a></li>
                         <li><a href="contact.html">聯絡我</a></li>
                     </ul>
                 </nav>
@@ -34,236 +34,126 @@
 
         <div class="Section_Hobby">
             <div class="HobbyArea row">
-                <div class="col-xl-1 col-lg-1 col-md-0 col-sm-0 col-xs-0"></div>
+                <div class="col-2"></div>
+                        <!--image slider start-->
+    <div class="slider col-8 fade-in">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img src="img/About_Carousel_1.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="img/About_Carousel_2.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="img/About_Carousel_3.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="img/About_Carousel_4.png" alt="">
+          </div>
+          <!--slide images end-->
+          <!--automatic navigation start-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+          <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+      </div>
+      <!--image slider end-->
+                <div class="col-2"></div>
 
-                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 row">
-                    <div class="col-xl-0 col-lg-0 col-md-3 col-sm-3 col-xs-3"></div>
-                    <div class="About_Selfie_Area col-xl-12 col-lg-12 col-md-6 col-sm-6 col-xs-6"><img src="img/me_2.jpg" alt="me_2" class="About_Selfie"></div>
-                    <div class="col-xl-0 col-lg-0 col-md-3 col-sm-3 col-xs-3"></div>
-                </div>
-
-
-                                
-                <div class="About_Hobby_Text col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                    <div class="About_Hobby_Title">興趣</div>
-                    <hr class="About_Bar">
-                    <div class="row">
-                        <div class="col-6">
-                            <div class = "Index_About_Flip_Card">
-                                <div class = "thecard">
-                                    <div class = "thefront"><img src="img/Hobby_1.jpg" alt="Hobby_1" class="About_Icon"></div>
-                                    <div class = "theback">
-                                        <div class="FlipCard_Title">排球</div>
-                                        <hr class="FlipCard_Bar">
-                                        <p class="FlipCard_Content">球齡8年，現任系隊球員與教練，主要擔任MB與L</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-6">
-                            <div class = "Index_About_Flip_Card">
-                                <div class = "thecard">
-                                    <div class = "thefront"><img src="img/Hobby_2.png" alt="Hobby_2" class="About_Icon"></div>
-                                    <div class = "theback">
-                                        <div class="FlipCard_Title">遊戲</div>
-                                        <hr class="FlipCard_Bar">
-                                        <p class="FlipCard_Content">尤其喜愛賽車類、派對類遊戲，經營《跑跑卡丁車》帳號長達12年</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-6">
-                            <div class = "Index_About_Flip_Card">
-                                <div class = "thecard">
-                                    <div class = "thefront"><img src="img/Hobby_3.png" alt="Hobby_3" class="About_Icon"></div>
-                                    <div class = "theback">
-                                        <div class="FlipCard_Title">閱讀</div>
-                                        <hr class="FlipCard_Bar">
-                                        <p class="FlipCard_Content">偏好小說與散文集，過程中會稍加過濾出佳句或劇情編排手法等等，提升自己的寫作能力與理解力</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                                    
-                        <div class="col-6">
-                            <div class = "Index_About_Flip_Card">
-                                <div class = "thecard">
-                                    <div class = "thefront"><img src="img/Hobby_4.png" alt="Hobby_4" class="About_Icon"></div>
-                                    <div class = "theback">
-                                        <div class="FlipCard_Title">寫作</div>
-                                        <hr class="FlipCard_Bar">
-                                        <p class="FlipCard_Content">目前以遊戲企劃與遊戲評測居多，過去曾撰寫過新詩、小說等等文體</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-1 col-lg-1 col-md-0 col-sm-0 col-xs-0"></div>
             </div>
         </div>
         
-        <div class="Section_Experience">
-            <div class="ExperienceArea row">
-                <div class="col-xl-6 col-lg-6 col-md-12">
-                    <div class="About_Hobby_Title">個人經歷</div>
-                    <hr class="About_Bar">
-                    <div class="row">
-                        <p class="About_white_Info col-3 ">2012 Jun</p>
-                        <p class="About_white_Info col-9">完成首部小說作品，開啟寫作之旅</p>
-                    </div>
-
-                    <div class="row">
-                        <p class="About_white_Info col-3">2012 Mar</p>
-                        <p class="About_white_Info col-9">遊戲評測文章榮登遊戲官網</p>
-                    </div>
-
-                    <div class="row">
-                        <p class="About_white_Info col-3">2014 Aug</p>
-                        <p class="About_white_Info col-9">完成以網遊改編之長篇小說</p>
-                    </div>
-    
-                    <div class="row">
-                        <p class="About_white_Info col-3">2016 Oct</p>
-                        <p class="About_white_Info col-9">與宮廷遊戲&youtuber合作推廣《京門風月</p>
-                    </div>
-
-                    <div class="row">
-                        <p class="About_white_Info col-3">2017 Feb</p>
-                        <p class="About_white_Info col-9">正式成為遊戲橘子之特約合作夥伴</p>
-                    </div>
-        
-                    <div class="row">
-                        <p class="About_white_Info col-3">2017 Mar</p>
-                        <p class="About_white_Info col-9">編列進遊戲橘子之特約合作夥伴中的高級寫手組</p>
-                    </div>
-
-                    <div class="row">
-                        <p class="About_white_Info col-3">2017 Aug</p>
-                        <p class="About_white_Info col-9">正式成為巴哈姆特之特約合作夥伴</p>
-                    </div>
-            
-                    <div class="row">
-                        <p class="About_white_Info col-3">2017 Aug</p>
-                        <p class="About_white_Info col-9">與阿達馬數位公司合作推廣《神話永恆》</p>
-                    </div>
-
-                    <div class="row">
-                        <p class="About_white_Info col-3">2017 Nov</p>
-                        <p class="About_white_Info col-9">與阿達馬數位公司合作推廣《魔法門之英雄無敵》</p>
-                    </div>
-    
-                    <div class="row">
-                        <p class="About_white_Info col-3">2018 Jun</p>
-                        <p class="About_white_Info col-9">與阿達馬數位公司合作推廣《大掌門普拉斯》</p>
-                    </div>
-                
-                    <div class="row">
-                        <p class="About_white_Info col-3">2018 Nov</p>
-                        <p class="About_white_Info col-9">與原生創藝公司合作開發《VR時裝展》</p>
-                    </div>
-                </div>
-
-                <div class="col-6">
-                    <div class = "Experience_Fill"><img src="img/about_1.jpg" alt="Donka" class="Experience_Fill_Image"></div>
-                </div>
-            </div>
-        </div>
-
         <div class="Section_Award">
             <div class="AwardArea row">
-                <div class="col-6">
-                    <div class = "Experience_Fill"><img src="img/about_2.jpg" alt="Pufa" class="Experience_Fill_Image"></div>
+                <div class="col-xl-6 col-lg-5 col-md-0 col-sm-0 col-xs-0 slide-in from-left  Flex_Section">
+                    <div class = "Experience_Fill"><img src="img/About_Intro.png" alt="About_Intro" class="Experience_Fill_Image"></div>
                 </div>
 
-                <div class="col-xl-6 col-lg-6 col-md-12">
-                    <div class="About_Hobby_Title">得獎紀錄</div>
+                <div class="col-xl-6 col-lg-7 col-md-12 col-sm-12 col-xs-12 slide-in from-right">
+                    <div class="About_Hobby_Title">教育程度</div>
                     <hr class="About_Bar">
-                    <div class="row">
-                        <p class="About_white_Info col-3">2014 Mar</p>
-                        <p class="About_white_Info col-9">校內文學獎 ─ 小說組第二、新詩獎佳作</p>
+                    <div class="row Section_Box">
+                        <p class="About_white_Info_Title col-12">臺北教育大學 數位科技設計學系 | 2014.9 ~ 2018.6</p>
+                        <p class="About_white_Info col-12">‧主修遊戲程式設計，以Unity搭配C#進行遊戲開發</p>
+                        <p class="About_white_Info col-12">‧學習網站設計的基礎，以html、css、js進行靜態網頁設計</p>
                     </div>
-
-                    <div class="row">
-                        <p class="About_white_Info col-3">2017 May</p>
-                        <p class="About_white_Info col-9">金車文學獎 ─ 新詩組佳作</p>
+                    <div class="row Section_Box">
+                        <p class="About_white_Info_Title col-12">臺北教育大學 玩具與遊戲設計碩士班 | 2018.9 ~ 2020.6</p>
+                        <p class="About_white_Info col-12">‧持續開發遊戲，學習Unity版本更新之技術及程式的優化</p>
+                        <p class="About_white_Info col-12">‧擔任客座講師以及獨立接案之經驗</p>
+                        <p class="About_white_Info col-12">‧畢業論文則著重於探討物件隱喻對VR敘事遊戲經驗之影響</p>
                     </div>
-
-                    <div class="row">
-                        <p class="About_white_Info col-3">2018 May</p>
-                        <p class="About_white_Info col-9">作品《Unarus》入圍放視大賞PC遊戲組最終決選並受邀展出</p>
-                    </div>
-
-                    <div class="row">
-                        <p class="About_white_Info col-3">2018 Sep</p>
-                        <p class="About_white_Info col-9">作品《Unarus》榮獲KT科藝獎遊戲組之科普特別獎，於數位藝術節展出</p>
-                    </div>
-
-                    <div class="row">
-                        <p class="About_white_Info col-3">2019 Mar</p>
-                        <p class="About_white_Info col-9">作品《精靈勇者熊》榮獲2019創想星球，大專院校組數位遊戲第二名</p>
-                    </div>
-
-                    <div class="row">
-                        <p class="About_white_Info col-3">2019 Oct</p>
-                        <p class="About_white_Info col-9">作品《顏料遊戲：史萊姆與地精之歌》榮獲KT科藝獎遊戲組之銅獎，於數位藝術節展出</p>
-                    </div>
-
-                    <div class="row">
-                        <p class="About_white_Info col-3">2019 Dec</p>
-                        <p class="About_white_Info col-9">作品《顏料遊戲：史萊姆與地精之歌》榮獲2019 indiePlay中國獨立遊戲開發大賽季軍，於上海展出</p>
-                    </div>
-
-                    <div class="row">
-                        <p class="About_white_Info col-3">2020 May</p>
-                        <p class="About_white_Info col-9">作品《顏料遊戲：史萊姆與地精之歌》榮獲放視大賞PC遊戲組佳作</p>
-                    </div>
-
                     </p>
                 </div>
             </div>
         </div>
 
+        <div class="Section_Experience">
+            <div class="ExperienceArea row">
+                <div class="col-xl-6 col-lg-7 col-md-0 col-sm-0 col-xs-0 slide-in from-left">
+                    <div class="About_Hobby_Title">工作經驗</div>
+                    <hr class="About_Bar">
+                    <div class="row Section_Box">
+                        <p class="About_white_Info_Title col-12 ">文案撰寫</p>
+                        <p class="About_white_Info col-12">‧與宮廷遊戲、谷阿莫合作撰稿，推廣手遊《京門風月》</p>
+                        <p class="About_white_Info col-12">‧與阿達馬數位合作撰稿，推廣手遊《神話永恆》、《魔法門之英雄無敵》</p>
+                        <p class="About_white_Info col-12">‧於遊戲橘子、巴哈姆特擔任合作寫手，撰寫過多項遊戲評測文</p>
+                    </div>
+                    <div class="row Section_Box">
+                        <p class="About_white_Info_Title col-12 ">客座講師</p>
+                        <p class="About_white_Info col-12">‧受邀擔任校內營隊、系上與臺師大的Unity講師</p>
+                    </div>                    
+                    <div class="row Section_Box">
+                        <p class="About_white_Info_Title col-12">獨立接案</p>
+                        <p class="About_white_Info col-12">‧除開發遊戲參賽，曾配合alembic技術開發VR時裝秀</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12 col-xs-12 slide-in from-right Flex_Section">
+                    <div class = "Experience_Fill"><img src="img/About_Work.jpg" alt="About_Work" class="Experience_Fill_Image"></div>
+                </div>
+            </div>
+        </div>
     </div>
-
-
-
 
 
     <footer>
             <div class="Footer_Area">
-                <div class="Footer_IconArea row">
-                    <a href="https://www.facebook.com/profile.php?id=100001230842968" class="Footer_Icon col-3"><img src="img/social_1.png" alt="social_1" class="Footer_Icon_img"></a>
-                    <a href="https://www.instagram.com/yanchan1506/?hl=zh-tw" class="Footer_Icon col-3"><img src="img/social_2.png" alt="social_2" class="Footer_Icon_img"></a>
-                    <a href="https://www.youtube.com/user/yangmin3306/videos?view_as=subscriber" class="Footer_Icon col-3"><img src="img/social_3.png" alt="social_3" class="Footer_Icon_img"></a>
-                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" class="Footer_Icon col-3"><img src="img/social_4.png" alt="social_4" class="Footer_Icon_img"></a>
-                </div>
-    
-                <div class="Footer_CommunicateArea row">
-                    <div class="Footer_Communicate_Content col-xl-4 col-lg-4 col-md-6 row">
-                        <img src="img/Footer_1.png" alt="Footer_1" class="Footer_Communicate_img">
-                        <p class="Footer_Communicate_text col-10">0963-617703</p>
-                    </div>
-    
-                    <div class="Footer_Communicate_Content col-xl-4 col-lg-4 col-md-6 row">
-                        <img src="img/Footer_2.png" alt="Footer_2" class="Footer_Communicate_img">
-                        <p class="Footer_Communicate_text col-10">yangmin3306@gmail.com</p>
-                    </div>
-    
-                    <div class="Footer_Communicate_Content col-xl-4 col-lg-4 col-md-12 row">
-                        <img src="img/Footer_3.png" alt="Footer_3" class="Footer_Communicate_img">
-                        <p class="Footer_Communicate_text col-10">(10671)臺北市大安區和平東路二段134號─數位系玩遊所范俞實驗室</p>
-                    </div>
-                </div>
-    
-                <hr class="Footer_Bar col">
                 <div class="Footer_BottomArea">
-                    <p class="Footer_Bottom_Text">© 2018-2019 Yan-chen Lin All Rights Reserved.</p>
+                    <p class="Footer_Bottom_Text">© 2018-2021 Yan-Chen Lin All Rights Reserved.</p>
                 </div>
             </div>
         </footer>
+
+        <!--<script type="text/javascript">
+            var counter = 1;
+            setInterval(function(){
+              document.getElementById('radio' + counter).checked = true;
+              counter++;
+              if(counter > 4){
+                counter = 1;
+              }
+            }, 5000);
+            </script>-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
