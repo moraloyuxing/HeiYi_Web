@@ -6,7 +6,6 @@
 
 .Section_Contact{
     max-width: 100%;
-    min-height: 1000px;
     margin:auto;
     padding-top:100px;
     padding-bottom:100px;
@@ -22,9 +21,7 @@
 
 
 .Contact_Square{
-    padding: 0;
-    height:50%;
-    margin-bottom: 50px;
+    margin: 50px 0;
 }
 
 .Square_Text{
@@ -35,14 +32,6 @@
 
 .Square_Image{
     height: 50%;
-}
-
-.Contact_Img{
-    width:300px;
-    height: 300px;
-    border-radius: 150px;
-    display:block;
-    margin:auto;
 }
 
 .Contact_Img_Eternal{
@@ -69,7 +58,7 @@
 }
 
 .Info_Line{
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .Contact_white_Info{
@@ -77,10 +66,23 @@
     font-family: 'Noto Sans TC', sans-serif;
     color: ivory;
     text-align: left;
+    margin-left: 15px;
+}
+
+.Contact_Icon_img{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
 }
 
 .fake_space{
     height:25px;
+}
+
+.Contact_white_Info a{
+    color: ivory;
+    border-bottom: 1px solid #bbb;
+    text-decoration: none;
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -106,6 +108,7 @@
         color: ivory;
         text-align: left;
         padding-top: 50px;
+
     }
     
     .Contact_section_Bar{
@@ -116,14 +119,16 @@
     }
     
     .Info_Line{
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
     
     .Contact_white_Info{
-        font-size: 16px;
+        font-size: 14px;
         font-family: 'Noto Sans TC', sans-serif;
         color: ivory;
         text-align: left;
+        margin-left: 15px;
+
     }  
 }
 
@@ -153,7 +158,7 @@
     }
     
     .Info_Line{
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
     
     .Contact_white_Info{
@@ -161,12 +166,9 @@
         font-family: 'Noto Sans TC', sans-serif;
         color: ivory;
         text-align: left;
+        margin-left: 15px;
+
     }  
-
-
-    .Contact_Img{
-        display:none;
-    }
     
     .Contact_Img_Eternal{
         width:250px;
@@ -177,7 +179,7 @@
     }
 }
 
-@media (max-width: 767.98px) {
+@media (min-width: 576px) and (max-width: 767.98px) {
 
     .Contact_Img_Eternal{
         width:150px;
@@ -187,11 +189,42 @@
         margin:auto;
     }
 
-    .Contact_Img{
-        display:none;
+    .Contact_white_Info{
+        font-size: 12px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .Contact_Icon_img{
+        width: 20px;
+        height: 20px;
     }
 }
 
+@media (max-width: 575.98px){
+    .Contact_Img_Eternal{
+        width:150px;
+        height: 150px;
+        border-radius: 75px;
+        display:block;
+        margin:auto;
+    }
 
+    .Contact_white_Info{
+        font-size: 12px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        text-align: left;
+        margin-left: 15px;
+        width: auto;
+    }
+    
+    .Contact_Icon_img{
+        width: 20px;
+        height: 20px;
+    }
+}
 
 

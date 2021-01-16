@@ -37,7 +37,6 @@
         font-family: 'Noto Sans TC', sans-serif;
         color: ivory;
         text-align: center;
-        margin-top: 50px;
     }
     
     .Index_AboutMe_Text_Content{
@@ -89,6 +88,11 @@
         background-color: ivory;
     }
     
+    .Index_AboutMe_Item{
+        padding: 0 30px;
+        margin:30px 0;
+    }
+
     .Index_Ability{
         background: #56969c;
     }
@@ -110,10 +114,14 @@
     
     .Index_Ability_Info{
         max-width: 1500px;
-        padding-top: 50px;
         margin:0 auto;
     }
     
+    .Index_Ability_Item{
+        padding: 0 30px;
+        margin:30px 0;
+    }
+
     .Index_Ability_Info_Row{
         margin:0;
     }
@@ -183,7 +191,33 @@
         height: 30px;
     }
 
+    .Section_Box{
+        margin: 35px 0;
+      }
+      
+      .Ability_white_Info_Title{
+        font-size: 22px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        white-space:pre-wrap;
+        text-align: left;
+      }
+      
+      .Ability_white_Info{
+          font-size: 18px;
+          font-family: 'Noto Sans TC', sans-serif;
+          color: ivory;
+          white-space:pre-wrap;
+          text-align: left;
+      }
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .Index_AboutMe_Info{
+        max-width:900px;
+        margin: 0 auto;
+    }
+
     .Index_AboutMe_Selfie{
         width:350px;
         border-radius: 5px;
@@ -207,31 +241,115 @@
         line-height: 27px;
         white-space:pre-wrap;
     }
+
+    .Ability_white_Info_Title{
+        font-size: 18px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        white-space:pre-wrap;
+        text-align: left;
+      }
+  
+      .Ability_white_Info{
+          font-size: 14px;
+          font-family: 'Noto Sans TC', sans-serif;
+          color: ivory;
+          white-space:pre-wrap;
+          text-align: left;
+      }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .Index_AboutMe_Info{
+        max-width:700px;
+        margin: 0 auto;
+    }
+
     .Index_AboutMe_Selfie{
         width:300px;
         border-radius: 5px;
         display: block;        
         margin: auto;
     }
+
+    .Ability_white_Info_Title{
+        font-size: 18px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        white-space:pre-wrap;
+        text-align: left;
+      }
+  
+      .Ability_white_Info{
+          font-size: 14px;
+          font-family: 'Noto Sans TC', sans-serif;
+          color: ivory;
+          white-space:pre-wrap;
+          text-align: left;
+      }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+    .Index_AboutMe_Info{
+        max-width:500px;
+        margin: 0 auto;
+    }
+
     .Index_AboutMe_Selfie{
         width:250px;
         border-radius: 5px;
         display: block;
         margin: auto;
     }
+
+    .Ability_white_Info_Title{
+        font-size: 14px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        white-space:pre-wrap;
+        text-align: left;
+      }
+  
+      .Ability_white_Info{
+          font-size: 12px;
+          font-family: 'Noto Sans TC', sans-serif;
+          color: ivory;
+          white-space:pre-wrap;
+          text-align: left;
+      }
 }
 
 @media (max-width: 575.98px){
+    .Index_AboutMe_Info{
+        max-width:400px;
+        margin: 0 auto;
+    }
+
     .Index_AboutMe_Selfie{
         width:200px;
         border-radius: 5px;
         display: block;
         margin: auto;
     }
+
+    .Section_Box {
+        margin: 20px 0;
+    }
+
+    .Ability_white_Info_Title{
+        font-size: 16px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        white-space:pre-wrap;
+        text-align: left;
+      }
+  
+      .Ability_white_Info{
+          font-size: 12px;
+          font-family: 'Noto Sans TC', sans-serif;
+          color: ivory;
+          white-space:pre-wrap;
+          text-align: left;
+      }
 }
