@@ -484,8 +484,24 @@
   #radio221:checked ~ .first{
     margin-left: 0;
   }
-  /*css for automatic navigation*/
+
+  #radio231:checked ~ .first{
+    margin-left: 0;
+  }
   
+  #radio232:checked ~ .first{
+    margin-left: -25%;
+  }
+  
+  #radio233:checked ~ .first{
+    margin-left: -50%;
+  }
+
+  #radio234:checked ~ .first{
+    margin-left: -75%;
+  }
+
+  /*css for automatic navigation*/
   .navigation-auto{
     position: absolute;
     display: flex;
@@ -716,6 +732,22 @@
   }
   
   #radio221:checked ~ .navigation-auto .auto-btn221{
+    background: #40D3DC;
+  }
+
+  #radio231:checked ~ .navigation-auto .auto-btn231{
+    background: #40D3DC;
+  }
+  
+  #radio232:checked ~ .navigation-auto .auto-btn232{
+    background: #40D3DC;
+  }
+  
+  #radio233:checked ~ .navigation-auto .auto-btn233{
+    background: #40D3DC;
+  }
+  
+  #radio234:checked ~ .navigation-auto .auto-btn234{
     background: #40D3DC;
   }
 /*幻燈片功能實作---End*/
